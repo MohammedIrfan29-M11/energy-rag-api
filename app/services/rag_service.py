@@ -97,7 +97,7 @@ def query_rag(question:str,history:list[dict]=[],n_chunks:int=MAX_CHUNKS_PER_QUE
         for chunk in relevant_chunks
     ]
     updated_history=history+[
-        {"role":"user","content":rag_prompt},
+        {"role":"user","content":question},
         {"role":"assistant","content":answer}
     ]
     logger.info(f"RAG complete | "

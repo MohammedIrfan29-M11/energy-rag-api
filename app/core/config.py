@@ -17,3 +17,8 @@ CHROMA_DB_PATH = "chroma_db"
 COLLECTION_NAME = "energy_documents"
 
 MAX_CONTEXT_TOKENS = 4000
+MAX_HISTORY_LENGTH = 10
+
+UPLOAD_DIR = "Documents"
+MAX_FILE_SIZE_MB = 50
+ALLOWED_EXTENSIONS = {'.pdf', '.txt', '.docx'}
