@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+logs/
+*.log
+chroma_db/
+documents/
+test_*.py
+*.md
