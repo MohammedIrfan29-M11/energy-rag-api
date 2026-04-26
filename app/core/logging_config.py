@@ -1,6 +1,7 @@
 import logging
 import sys
 from datetime import datetime
+import os
 
 def setup_logging():
     """Sets up logging configuration for the application.
